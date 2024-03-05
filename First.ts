@@ -33,5 +33,24 @@ anyTypeArray.push(c);
 
 console.log(anyTypeArray);
 
+// Define custom types
+
+type job = string;
+
+var j: job;
+//j = 7; // Error because job is a string
+j = "Engineer";
+
+
+// Enums?
+type jobType = "Engineer" | "Farmer";
+
+var jtype: jobType;
+
+//jtype = "Admin"; // Error: not a valid value
+jtype = "Engineer"; // OK
+
+
+
 
 
