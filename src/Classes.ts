@@ -58,6 +58,7 @@ class BaseServer implements IServer {
     public othermethod() {
         console.log('Some method')
     }
+
 }
 
 // To instantiate an object
